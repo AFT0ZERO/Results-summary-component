@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 16px;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: #ECF2FF;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    max-width: 46rem;
+    min-height: 32rem;
+    border-radius: 2rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.L-card {
+   padding:2.3rem 3,375rem ;
+    width: 23rem;
+    height: 32rem;
+    max-height:32rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#7755FF 0%, #6943FF 0%, #2F2CE9 100%);
+    border-radius: 2rem;
+    border: 0;
+}
+
+.L-card-title {
+    margin-top: 38px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #CAC9FF;
+}
+
+.card-result-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 50%;
+    border: 0;
+    background: linear-gradient( rgba(37,33,201,1) 0%, rgba(77,33,201,0) 100%);
+}
+
+.card-result-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-number {
+    font-size: 72px;
+    font-weight: 800;
+    color: white;
+    line-height: 0.9;
+}
+
+.sub-number {
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #CAC9FF;
+}
+
+.great {
+    margin-top: 28px;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.L-card-content {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 18px;
+    color: #CAC9FF;
+}
+
+.R-card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.R-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #303B59;
+}
+
+.R-card div {
+    width: 288px;
+    height: 56px;
+    border-radius: 12px;
+}
+
+.summary-result-1,
+.summary-result-2,
+.summary-result-3,
+.summary-result-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.summary-result-1 {
+    margin-top: 28px;
+    background-color: hsla(3, 95%, 95%);
+    color: #FF5555;
+}
+
+.summary-number {
+    font-size: 18px;
+    font-weight: 700;
+    color: #303B59;
+}
+
+.summary-number span {
+    opacity: 50%;
+}
+
+.summary-result-2 {
+    margin-top: 16px;
+    background-color: hsla(39, 100%, 95%);
+    color: #FFB21E;
+}
+
+.summary-result-3 {
+    margin-top: 16px;
+    background-color: hsla(166, 100%, 95%);
+    color: #00BB8F;
+}
+
+.summary-result-4 {
+    margin-top: 16px;
+    background-color: hsla(234, 100%, 95%);
+    color: #1125D6;
+}
+
+button {
+    margin-top: 41px;
+    width: 288px;
+    height: 56px;
+    border-radius: 128px;
+    border: none;
+    background-color: #303B59;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-image: linear-gradient(#7755FF 0%, #6943FF 0%, #2F2CE9 100%);
+
+}
